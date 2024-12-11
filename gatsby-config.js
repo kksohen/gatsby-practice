@@ -1,7 +1,7 @@
 require("dotenv").config(); // .env 파일 읽어옴
 
 module.exports = {
-  pathPrefix: "gatsby-practice",
+  pathPrefix: "/gatsby-practice",
   siteMetadata: {
     title: `DevStickers`,
     siteUrl: `https://www.yourdomain.tld`,
