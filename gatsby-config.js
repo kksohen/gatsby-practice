@@ -1,10 +1,7 @@
-require("dotenv").config(); //env파일 읽어옴
-import type { GatsbyConfig } from "gatsby"
+require("dotenv").config(); // .env 파일 읽어옴
 
 module.exports = {
   pathPrefix: "gatsby-practice",
-}
-const config: GatsbyConfig = {
   siteMetadata: {
     title: `DevStickers`,
     siteUrl: `https://www.yourdomain.tld`,
@@ -33,6 +30,4 @@ const config: GatsbyConfig = {
       }
     }
   ],
-}
-
-export default config
+};
