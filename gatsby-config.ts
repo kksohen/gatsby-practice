@@ -2,8 +2,7 @@ require("dotenv").config(); //env파일 읽어옴
 import type { GatsbyConfig } from "gatsby"
 
 module.exports = {
-  // pathPrefix: "reponame",
-  distDir: 'public'
+  pathPrefix: "reponame",
 }
 const config: GatsbyConfig = {
   siteMetadata: {
